@@ -8,8 +8,7 @@ compOptions = [
 ]
 compInput = random.choice(compOptions)
 
-def play_again():
-    play()
+
 
 def play(): 
     if userInput == compInput: 
@@ -44,6 +43,6 @@ def play():
 
     else:
         print("Please make a valid choice")
-        play_again()
+
 
 play()
